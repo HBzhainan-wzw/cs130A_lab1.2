@@ -1,0 +1,68 @@
+*** Hash24 dump ***
+prime1 = 16890581
+prime2 = 17027399
+random_a = 120058
+random_b = 903979
+random_c = 834541
+Number of words = 10000
+Table size = 10000
+Max collisions = 7
+# of primary slots with 0 words = 3717
+# of primary slots with 1 words = 3595
+# of primary slots with 2 words = 1872
+# of primary slots with 3 words = 639
+# of primary slots with 4 words = 148
+# of primary slots with 5 words = 23
+# of primary slots with 6 words = 5
+# of primary slots with 7 words = 1
+# of primary slots with 8 words = 0
+# of primary slots with 9 words = 0
+# of primary slots with 10 words = 0
+# of primary slots with 11 words = 0
+# of primary slots with 12 words = 0
+# of primary slots with 13 words = 0
+# of primary slots with 14 words = 0
+# of primary slots with 15 words = 0
+# of primary slots with 16 words = 0
+# of primary slots with 17 words = 0
+# of primary slots with 18 words = 0
+# of primary slots with 19 words = 0
+# of primary slots with 20 words = 0
+** Words in the slot with most collisions ***
+automatic
+buddy
+carrier
+liver
+spin
+stan
+weblogs
+Number of hash functions tried:
+# of secondary hash tables trying 1 hash functions = 3141 
+# of secondary hash tables trying 2 hash functions = 808 
+# of secondary hash tables trying 3 hash functions = 220 
+# of secondary hash tables trying 4 hash functions = 57 
+# of secondary hash tables trying 5 hash functions = 7 
+# of secondary hash tables trying 6 hash functions = 7 
+# of secondary hash tables trying 7 hash functions = 1
+# of secondary hash tables trying 8 hash functions = 0 
+# of secondary hash tables trying 9 hash functions = 0 
+# of secondary hash tables trying 10 hash functions = 0 
+# of secondary hash tables trying 11 hash functions = 0 
+# of secondary hash tables trying 12 hash functions = 0 
+# of secondary hash tables trying 13 hash functions = 0 
+# of secondary hash tables trying 14 hash functions = 0 
+# of secondary hash tables trying 15 hash functions = 0 
+# of secondary hash tables trying 16 hash functions = 0 
+# of secondary hash tables trying 17 hash functions = 0
+# of secondary hash tables trying 18 hash functions = 0 
+# of secondary hash tables trying 19 hash functions = 0 
+# of secondary hash tables trying 20 hash functions = 0 
+Average # of hash functions tried = 1.3508606
+Queries:
+outcomes found at 5064
+chess found at 3144
+otter not found
+simulation found at 2701
+png not found
+trays not found
+louisville found at 4704
