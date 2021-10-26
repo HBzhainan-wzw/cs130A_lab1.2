@@ -2,13 +2,14 @@
 
 #include <iostream>
 #include <string>
+#include <stdexcept>
 
 static bool initialized = false;
 
 Hash24::Hash24() {
 
     if ( !initialized ) {
-        srand(time(0));
+        //srand(time(0));
         initialized = true ;
     }
     // generate and store some random values
@@ -20,7 +21,7 @@ Hash24::Hash24() {
 Hash24::Hash24(unsigned long rand_a, unsigned long rand_b, unsigned long rand_c) {
 
     if ( !initialized ) {
-        srand(time(0));
+        //srand(time(0));
         initialized = true ;
     }
     // store random value params

@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <stdexcept>
 
 static bool initialized = false;
 
