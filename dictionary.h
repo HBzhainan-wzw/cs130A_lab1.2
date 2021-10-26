@@ -1,12 +1,18 @@
 #ifndef DICTIONARY_H
 #define DICTIONARY_H
 
+#include <iostream>
+#include <fstream>
+#include <cstring>
+#include <cstdlib>
 #include <vector>
 #include <string>
 #include "hash24.h"
 
+using namespace std;
+
 // hash table class
-class dictionary {
+class Dictionary {
 
 private:
     //inputFileNames
@@ -20,19 +26,30 @@ private:
     unsigned long random_c;
 
     // utilities 
-    Hash24 primaryHash24;
-    Hash24 secondaryHash24;
+    Hash24* primaryHash24;
+
+    //figures
+    int inputWordsCnt = 0;
+    int MaxCollision = 0;
+    int primarySlots[21];
+    int maxCollisionIndex = 0;
+    int secondaryTrial[21];
+    vector<string> maxCollideVec;
 
     //storages
     vector<vector<string>> primaryHashTable;
-    int inputWordsCnt = 0;
+    vector<Hash24*> secondaryHash24;
+    int* primaryHashScale;
 
 public:
-    dictionary();
-    void loadParameter(string paramFileName);
+    Dictionary(string fname, string paramFileName);
+    void loadParam(string paramFileName);
     int primaryScaling();
     int build();
     int insertSecondary();
+    void printResult();
+    bool find(string word);
+
 };
 
 #endif
