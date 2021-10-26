@@ -2,7 +2,7 @@
 #define HASH24_H
 
 #include <string>
-
+#include <stdexcept>
 // Helper class for calculating hash values using universal randomly selected hash functions.
 class Hash24 {
 
